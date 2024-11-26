@@ -1,0 +1,155 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+li {
+  float: right;
+ 
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background-color: #111;
+}
+img{
+  height:35px;
+  width:35px;
+  border-radius: 8px;
+}
+
+h1{
+  padding-bottom: 0px;
+  font-size: 35px;
+  
+}
+i{
+ float: left;
+}
+
+p{
+  text-align: left;
+}
+
+section{
+  margin: auto;
+  display: block;
+  padding-left: 375px;
+  padding-bottom: 40px;
+  text-align: left;
+}
+header{
+  overflow:hidden;
+}
+footer{
+  color: white;
+  background-color: #333;
+  width: 100%;
+  height: 90px;
+} 
+
+
+#nav-bar{
+  position: fixed;
+  width: 100%;
+  font-size: 25px;
+  overflow: hidden;
+  color: white;
+  
+}
+
+#pageOne{
+  text-align: center;
+  margin: 0px;
+  padding: 30px;
+  background-color: #333;
+}
+#pageTwo{
+  text-align: center;
+  display: inline;
+  width: 15%;
+  height: 700px;
+  margin: 10px;
+  
+}
+  
+ #submit{
+  background-color: grey;
+  color: white;
+  padding: 20px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: black;
+}
+
+
+#item1{
+  border: solid;
+  height: 400px;
+  width: 300px;
+  
+}
+#item2{
+  border: solid;
+  height: 400px;
+  width: 300px;
+  
+}
+#item3{
+  border: solid;
+  height: 400px;
+  width: 300px;
+  
+}
+ #select{
+  background-color: grey;
+  color: white;
+  padding: 20px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+#select:hover{
+  background-color: black;
+}
+
+
+input[type=email], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: flow;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 50px;
+}
+
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightgray;
+   
+  }
+}
